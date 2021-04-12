@@ -150,8 +150,8 @@ FALSE       False
 %%
 int main(){
     FILE *f1, *f2;
-    f1=fopen("code.py","r");
-    f2=fopen("Output.txt", "w");
+    f1=fopen("LAB01_CASTANEDA_MONTANO_DAWD.py","r");
+    f2=fopen("LAB01_CASTANEDA_MONTANO_DAWD.txt", "w");
     yyin=f1;
     yyout=f2;
     yylex();

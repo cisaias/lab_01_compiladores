@@ -584,8 +584,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lex.l"
-#line 2 "lex.l"
+#line 1 "LAB01_CASTANEDA_MONTANO_DAWD.l"
+#line 2 "LAB01_CASTANEDA_MONTANO_DAWD.l"
     int count = 1;
     char *variables[10000];
     int x=1;
@@ -811,7 +811,7 @@ YY_DECL
 		}
 
 	{
-#line 53 "lex.l"
+#line 53 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 
 #line 817 "lex.yy.c"
 
@@ -872,137 +872,137 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 54 "lex.l"
+#line 54 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"AND ");}
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 55 "lex.l"
+#line 55 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"ELSE ");}
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 56 "lex.l"
+#line 56 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"IS ");}
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 57 "lex.l"
+#line 57 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"RETURN ");}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 58 "lex.l"
+#line 58 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"BREAK ");}
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 59 "lex.l"
+#line 59 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"FOR ");}
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 60 "lex.l"
+#line 60 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"IF ");}
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 61 "lex.l"
+#line 61 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"NOT ");}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 62 "lex.l"
+#line 62 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"WHILE ");}
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 63 "lex.l"
+#line 63 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"CONTINUE ");}
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 64 "lex.l"
+#line 64 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"OR ");}
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 65 "lex.l"
+#line 65 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"DEF ");}
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 66 "lex.l"
+#line 66 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"IMPORT ");}
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 67 "lex.l"
+#line 67 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"PASS ");}
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 68 "lex.l"
+#line 68 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"ELIF ");}
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 69 "lex.l"
+#line 69 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"IN ");}
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 70 "lex.l"
+#line 70 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"PRINT ");}
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 71 "lex.l"
+#line 71 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"RANGE ");}
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 72 "lex.l"
+#line 72 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"TRUE ");}
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 73 "lex.l"
+#line 73 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"FALSE ");}
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 74 "lex.l"
+#line 74 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {fprintf(yyout,"ERROR=%s ", yytext);errores++;}
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 75 "lex.l"
+#line 75 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {fprintf(yyout,"ERROR=%s ", yytext);errores++;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 76 "lex.l"
+#line 76 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {fprintf(yyout,"ERROR=%s ", yytext);errores++;}
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 77 "lex.l"
+#line 77 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {fprintf(yyout,"ERROR=%s ", yytext);errores++;}
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 78 "lex.l"
+#line 78 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"REAL=%s ", yytext);}
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 79 "lex.l"
+#line 79 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"REAL=%s ", yytext);}
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 80 "lex.l"
+#line 80 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {
     sw = 0;
     variables[count]=malloc(10*sizeof(yytext));
@@ -1023,253 +1023,253 @@ YY_RULE_SETUP
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 97 "lex.l"
+#line 97 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"ENTERO=%s ", yytext);}
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 98 "lex.l"
+#line 98 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"IMAGINARIO=%s ", yytext);}
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 99 "lex.l"
+#line 99 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"LONG=%s ", yytext);}
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 100 "lex.l"
+#line 100 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"cadena=%s ", yytext);}
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 101 "lex.l"
+#line 101 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {}
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 105 "lex.l"
+#line 105 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"suma=%s ", yytext);}
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 106 "lex.l"
+#line 106 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"menos=%s ", yytext);}
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 107 "lex.l"
+#line 107 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"mult=%s ", yytext);}
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 108 "lex.l"
+#line 108 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"exp=%s ", yytext);}
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 109 "lex.l"
+#line 109 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"div=%s ", yytext);}
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 110 "lex.l"
+#line 110 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"divEnt=%s ", yytext);}
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 111 "lex.l"
+#line 111 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"mod=%s ", yytext);}
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 112 "lex.l"
+#line 112 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"deslpIzq=%s ", yytext);}
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 113 "lex.l"
+#line 113 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"despDer=%s ", yytext);}
 	YY_BREAK
 case 42:
 YY_RULE_SETUP
-#line 114 "lex.l"
+#line 114 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"Y=%s ", yytext);}
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 115 "lex.l"
+#line 115 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"or=%s ", yytext);}
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 116 "lex.l"
+#line 116 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"elv=%s ", yytext);}
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 117 "lex.l"
+#line 117 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"virgulilla=%s ", yytext);}
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 118 "lex.l"
+#line 118 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"menque=%s ", yytext);}
 	YY_BREAK
 case 47:
 YY_RULE_SETUP
-#line 119 "lex.l"
+#line 119 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"mayque=%s ", yytext);}
 	YY_BREAK
 case 48:
 YY_RULE_SETUP
-#line 120 "lex.l"
+#line 120 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"menoigu=%s ", yytext);}
 	YY_BREAK
 case 49:
 YY_RULE_SETUP
-#line 121 "lex.l"
+#line 121 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"mayoigu=%s ", yytext);}
 	YY_BREAK
 case 50:
 YY_RULE_SETUP
-#line 122 "lex.l"
+#line 122 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"comp= %s ", yytext);}
 	YY_BREAK
 case 51:
 YY_RULE_SETUP
-#line 123 "lex.l"
+#line 123 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"differ=%s ", yytext);}
 	YY_BREAK
 case 52:
 YY_RULE_SETUP
-#line 124 "lex.l"
+#line 124 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"noesiguala=%s ", yytext);}
 	YY_BREAK
 case 53:
 YY_RULE_SETUP
-#line 125 "lex.l"
+#line 125 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"parabre=%s ", yytext);}
 	YY_BREAK
 case 54:
 YY_RULE_SETUP
-#line 126 "lex.l"
+#line 126 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"parcierr=%s ", yytext);}
 	YY_BREAK
 case 55:
 YY_RULE_SETUP
-#line 127 "lex.l"
+#line 127 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"corchabre=%s ", yytext);}
 	YY_BREAK
 case 56:
 YY_RULE_SETUP
-#line 128 "lex.l"
+#line 128 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"corchcierr=%s ", yytext);}
 	YY_BREAK
 case 57:
 YY_RULE_SETUP
-#line 129 "lex.l"
+#line 129 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"asign= %s ", yytext);}
 	YY_BREAK
 case 58:
 YY_RULE_SETUP
-#line 130 "lex.l"
+#line 130 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"puntcomma=%s ", yytext);}
 	YY_BREAK
 case 59:
 YY_RULE_SETUP
-#line 131 "lex.l"
+#line 131 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"comma=%s ", yytext);}
 	YY_BREAK
 case 60:
 YY_RULE_SETUP
-#line 132 "lex.l"
+#line 132 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"dospunt=%s ", yytext);}
 	YY_BREAK
 case 61:
 YY_RULE_SETUP
-#line 133 "lex.l"
+#line 133 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"punt=%s ", yytext);}
 	YY_BREAK
 case 62:
 YY_RULE_SETUP
-#line 134 "lex.l"
+#line 134 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"maymayigu=%s ", yytext);}
 	YY_BREAK
 case 63:
 YY_RULE_SETUP
-#line 135 "lex.l"
+#line 135 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"menmenigu=%s ", yytext);}
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 136 "lex.l"
+#line 136 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"masigu=%s ", yytext);}
 	YY_BREAK
 case 65:
 YY_RULE_SETUP
-#line 137 "lex.l"
+#line 137 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"menigu=%s ", yytext);}
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 138 "lex.l"
+#line 138 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"astigu=%s ", yytext);}
 	YY_BREAK
 case 67:
 YY_RULE_SETUP
-#line 139 "lex.l"
+#line 139 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"slashigu=%s ", yytext);}
 	YY_BREAK
 case 68:
 YY_RULE_SETUP
-#line 140 "lex.l"
+#line 140 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"amperigu=%s ", yytext);}
 	YY_BREAK
 case 69:
 YY_RULE_SETUP
-#line 141 "lex.l"
+#line 141 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"origu=%s ", yytext);}
 	YY_BREAK
 case 70:
 YY_RULE_SETUP
-#line 142 "lex.l"
+#line 142 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"cirigu=%s ", yytext);}
 	YY_BREAK
 case 71:
 YY_RULE_SETUP
-#line 143 "lex.l"
+#line 143 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"astastigu=%s ", yytext);}
 	YY_BREAK
 case 72:
 YY_RULE_SETUP
-#line 144 "lex.l"
+#line 144 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { fprintf(yyout,"porcigu=%s ", yytext);}
 	YY_BREAK
 case 73:
 YY_RULE_SETUP
-#line 145 "lex.l"
+#line 145 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 { }
 	YY_BREAK
 case 74:
 /* rule 74 can match eol */
 YY_RULE_SETUP
-#line 146 "lex.l"
+#line 146 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {fprintf(yyout,"\n");}
 	YY_BREAK
 case 75:
 YY_RULE_SETUP
-#line 147 "lex.l"
+#line 147 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {fprintf(yyout,"\t");}
 	YY_BREAK
 case 76:
 YY_RULE_SETUP
-#line 148 "lex.l"
+#line 148 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 {fprintf(yyout,"ERROR ");errores++;}
 	YY_BREAK
 case 77:
 YY_RULE_SETUP
-#line 150 "lex.l"
+#line 150 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 ECHO;
 	YY_BREAK
 #line 1276 "lex.yy.c"
@@ -2277,12 +2277,12 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 150 "lex.l"
+#line 150 "LAB01_CASTANEDA_MONTANO_DAWD.l"
 
 int main(){
     FILE *f1, *f2;
-    f1=fopen("code.py","r");
-    f2=fopen("Output.txt", "w");
+    f1=fopen("LAB01_CASTANEDA_MONTANO_DAWD.py","r");
+    f2=fopen("LAB01_CASTANEDA_MONTANO_DAWD.txt", "w");
     yyin=f1;
     yyout=f2;
     yylex();
