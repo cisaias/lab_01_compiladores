@@ -1,0 +1,43 @@
+DEF id1=eval parabre=( id2=xi comma=, id3=exp parcierr=) dospunt=: 
+	id4=ans asign= = FALSE 
+	FOR id5=i IN RANGE parabre=( id6=len parabre=( id3=exp parcierr=) parcierr=) dospunt=: 
+		id7=part asign= = ERROR TRUE 
+		FOR id8=j IN RANGE parabre=( id6=len parabre=( id3=exp corchabre=[ id5=i corchcierr=] parcierr=) parcierr=) dospunt=: 
+			id7=part asign= = id7=part AND id2=xi corchabre=[ id3=exp corchabre=[ id5=i corchcierr=] corchabre=[ id8=j corchcierr=] corchcierr=] 
+		id4=ans asign= = id4=ans OR id7=part 
+	RETURN id4=ans 
+
+
+WHILE ENTERO=2 mult=* id5=i menoigu=<= LONG=40000L 
+	id9=h asign= = REAL=3.4e-5 suma=+ ENTERO=5 
+	IF id5=i comp= == ENTERO=0 dospunt=: 
+		BREAK 
+DEF id10=otra_fun parabre=( parcierr=) dospunt=: 
+	PASS 
+PRINT parabre=( cadena=‘Esta es la respuesta’ comma=, id11=con comma=, cadena=’y la expresión ’ comma=, ENTERO=3 mult=* id5=i suma=+ ENTERO=5 mult=* parabre=( ENTERO=7 menos=- id12=x parcierr=) parcierr=) 
+
+
+
+id13=table asign= = corchabre=[ corchcierr=] 
+id14=y asign= = ERROR=123ABC 
+
+
+
+
+14 Identificadores
+id1=eval 
+id2=xi 
+id3=exp 
+id4=ans 
+id5=i 
+id6=len 
+id7=part 
+id8=j 
+id9=h 
+id10=otra_fun 
+id11=con 
+id12=x 
+id13=table 
+id14=y 
+
+2 Errores
